@@ -29,15 +29,22 @@ PlayAlertSound 5 120
 MinimapIcon 0 Purple Triangle
 
 # //////////////////
+# Leagues
+# //////////////////
+
+
+
+# //////////////////
 # Mirror and perfect tier, purple on white
 # //////////////////
 
 Show
 Class "Currency"
-BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb" "Scroll of Wisdom"
+BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb"
 SetFontSize 46
 SetTextColor 153 50 204 255
 SetBackgroundColor 250 250 250 200
+SetBorderColor 153 50 204 255
 PlayEffect Purple
 PlayAlertSound 5 120
 MinimapIcon 0 Purple Circle
@@ -52,17 +59,18 @@ BaseType "Divine Orb" "Greater Jeweller's Orb"
 SetFontSize 44
 SetTextColor 220 20 60 255
 SetBackgroundColor 250 250 250 175
+SetBorderColor 220 20 60 255
 PlayEffect Red
 PlayAlertSound 4 120
 MinimapIcon 1 Red Circle
 
 # //////////////////
-# Exalted tier, color on color
+# Exalted tier, black on white
 # //////////////////
 
 Show
 Class "Currency"
-BaseType "Exalted Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Glassblower's Bauble"
+BaseType "Exalted Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Annulment" "Glassblower's Bauble" "Orb of Chance"
 SetFontSize 40
 SetTextColor 0 0 0 255
 SetBackgroundColor 219 226 233 175
@@ -72,13 +80,54 @@ PlayAlertSound 3 120
 MinimapIcon 2 White Circle
 
 # //////////////////
-# Currencies worth 0.2 - 1 exalted
+# Currencies worth 0.2 - 1 exalted, black on dirty beige
 # //////////////////
 
 Show
 Class "Currency"
-BaseType  "Armourer's Scrap" "Orb of Chance" "Vaal Orb" "Orb of Alchemy"
-SetFontSize 38
+BaseType "Armourer's Scrap" "Vaal Orb" "Orb of Alchemy" "Artificer's Orb" "Chance Shard" "Arcanist's Etcher"
+SetFontSize 32
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 223 194 146 175
+
+# //////////////////
+# Currencies worth < 0.2 exalted, default colors
+# //////////////////
+
+Show
+Class "Currency"
+BaseType "Regal Orb" "Blacksmith's Whetstone"
+SetFontSize 30
+
+# //////////////////
+# Hidden currencies
+# //////////////////
+
+Hide
+Class "Currency"
+BaseType "Lesser Jeweller's Orb"
+SetFontSize 20
+
+Hide
+Class "Currency"
+BaseType "Orb of Transmutation" "Orb of Augmentation"
+SetFontSize 16
+
+Hide
+Class "Currency"
+BaseType "Scroll of Wisdom" "Transmutation Shard" "Regal Shard"
+SetFontSize 10
+
+# //////////////////
+# Gold
+# //////////////////
+
+Show
+BaseType "Gold"
+StackSize >= 2000
+SetFontSize 20
+
+Hide
+BaseType "Gold"
+SetFontSize 12
