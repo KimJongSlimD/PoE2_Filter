@@ -409,10 +409,10 @@ SetFontSize 12
 
 Hide
 Rarity = Rare
-Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet"
+Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet"
 SetFontSize 20
 
 Hide
 Rarity < Rare
-Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
+Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
 SetFontSize 20
