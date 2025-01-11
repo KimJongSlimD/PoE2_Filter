@@ -391,7 +391,7 @@ SetFontSize 30
 
 Hide
 BaseType "Advanced"
-SetFontSize 30
+SetFontSize 20
 
 # //////////////////
 # Hidden quivers
