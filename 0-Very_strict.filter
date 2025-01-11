@@ -1,17 +1,73 @@
-# Base font size = 34, cap = 46?
-
-
+# Base font size = 34, cap = 45
 
 # //////////////////
-# Charms
+# Only show pure ES, Evasion or ES Evasion Hybrid
 # //////////////////
 
-Show
-BaseType == "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
+Hide
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion = 0
+BaseEnergyShield = 0
 SetFontSize 30
 
 Hide
-BaseType "Charm"
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion = 0
+BaseEnergyShield > 0
+SetFontSize 30
+
+Hide
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion > 0
+BaseEnergyShield = 0
+SetFontSize 30
+
+Hide
+BaseType "Advanced"
+SetFontSize 30
+
+# //////////////////
+# Normal bases to sell/craft/chance, in order
+# //////////////////
+
+Show
+BaseType "Siphoning Wand" "Attuned Wand"
+ItemLevel > 80
+SetFontSize 36
+
+Show
+BaseType "Expert Dualstring"
+ItemLevel > 81
+SetFontSize 36
+
+Show
+Rarity Normal
+BaseType "Stellar Amulet" "Sapphire Ring"
+SetFontSize 36
+
+# //////////////////
+# Breach rings
+# //////////////////
+
+Show
+BaseType "Breach Ring"
+SetFontSize 36
+SetBackgroundColor 0 77 81 255
+SetBorderColor 0 77 81 255
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
+# //////////////////
+# Rare rings and amulets
+# //////////////////
+
+Show
+Class "Ring" "Amulet"
+Rarity Rare
+SetFontSize 36
 
 # //////////////////
 # Uniques to vaal
@@ -34,7 +90,7 @@ MinimapIcon 1 Red Triangle
 Show
 Rarity Unique
 BaseType "Heavy Belt" "Grand Regalia" "Armoured Cap" "Furtive Wraps" "Utility Belt" "Ornate Belt" "Smuggler Coat" "Flask"
-SetFontSize 46
+SetFontSize 45
 SetTextColor 153 50 204 255
 SetBorderColor 153 50 204 255
 PlayEffect Purple
@@ -136,7 +192,7 @@ SetTextColor 0 144 158 255
 Show
 Class "Currency"
 BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb"
-SetFontSize 46
+SetFontSize 45
 SetTextColor 153 50 204 255
 SetBackgroundColor 250 250 250 200
 SetBorderColor 153 50 204 255
@@ -181,7 +237,7 @@ MinimapIcon 2 White Circle
 Show
 Class "Currency"
 BaseType "Armourer's Scrap" "Vaal Orb" "Orb of Alchemy" "Artificer's Orb" "Chance Shard" "Arcanist's Etcher"
-SetFontSize 32
+SetFontSize 34
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
 SetBackgroundColor 223 194 146 175
@@ -253,6 +309,25 @@ SetFontSize 12
 SetBorderColor 234 145 69 255
 
 # //////////////////
+# Barya and ultimatum
+# //////////////////
+
+Hide
+BaseType "Djinn Barya" "Ultimatum"
+ItemLevel > 76
+
+# //////////////////
+# Charms
+# //////////////////
+
+Show
+BaseType "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
+SetFontSize 30
+
+Hide
+BaseType "Charm"
+
+# //////////////////
 # Gems
 # //////////////////
 
@@ -305,7 +380,7 @@ Class "Flask"
 Rarity < Unique
 SetFontSize 28
 
-# //////////////////
+# //////////////////b
 # Gold
 # //////////////////
 
@@ -317,3 +392,15 @@ SetFontSize 20
 Hide
 BaseType "Gold"
 SetFontSize 12
+
+# //////////////////
+# Hides all magic and rares armors, weapons and trinkets, minus rare trinkets, bows, xbows, quarterstaves and quivers
+# //////////////////
+
+Hide
+Rarity = Rare
+Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet"
+
+Hide
+Rarity < Rare
+Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
