@@ -119,14 +119,17 @@ BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Iso
 SetFontSize 40
 SetTextColor 0 144 158 255
 PlayEffect Cyan
+PlayAlertSound 3 120
 MinimapIcon 1 Cyan Circle
 
 Show
 BaseType "Logbook"
 SetFontSize 42
 SetTextColor 0 144 158 255
+SetBorderColor 0 144 158 255
 PlayEffect Cyan
-MinimapIcon 1 Cyan Circle
+PlayAlertSound 3 120
+MinimapIcon 0 Cyan Circle
 
 Show
 Class "Currency"
@@ -198,7 +201,7 @@ SetTextColor 0 0 0 255
 SetBackgroundColor 219 226 233 175
 SetBorderColor 0 0 0 255
 PlayEffect White
-PlayAlertSound 3 120
+PlayAlertSound 2 120
 MinimapIcon 2 White Circle
 
 # //////////////////
