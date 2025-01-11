@@ -343,13 +343,13 @@ SetFontSize 32
 
 Show
 Class "Flask"
-Quality > 15
+Quality > 14
 SetFontSize 30
 
 Hide
 Class "Flask"
 Rarity < Unique
-SetFontSize 28
+SetFontSize 20
 
 # //////////////////b
 # Gold
