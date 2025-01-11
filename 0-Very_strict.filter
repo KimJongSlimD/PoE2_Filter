@@ -393,6 +393,14 @@ Hide
 BaseType "Advanced"
 SetFontSize 30
 
+# //////////////////
+# Hidden quivers
+# //////////////////
+
+Hide
+Rarity < Unique
+Class "Quiver"
+BaseType "Blunt" "Toxic" "Serrated"
 
 # //////////////////
 # Hides all magic and rares armors, weapons and trinkets, minus rare trinkets, bows, xbows, quarterstaves and quivers
@@ -404,4 +412,4 @@ Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Sta
 
 Hide
 Rarity < Rare
-Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
+Class "Claw" "Dagger" "Wand" "Sword" "Axe" "Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
