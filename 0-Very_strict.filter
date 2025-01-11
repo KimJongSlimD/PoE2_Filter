@@ -1,5 +1,18 @@
 # Base font size = 34, cap = 46?
 
+
+
+# //////////////////
+# Charms
+# //////////////////
+
+Show
+BaseType == "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
+SetFontSize 30
+
+Hide
+BaseType "Charm"
+
 # //////////////////
 # Uniques to vaal
 # //////////////////
@@ -29,7 +42,7 @@ PlayAlertSound 5 120
 MinimapIcon 0 Purple Triangle
 
 # //////////////////
-# Tablets, realmgate, citadel, trial
+# Tablets, realmgate, citadel, trial, relics
 # //////////////////
 
 Show
@@ -38,7 +51,7 @@ SetFontSize 42
 SetTextColor 255 141 161 255
 SetBorderColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 2 Pink Square
+MinimapIcon 0 Pink Square
 
 Show
 BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Breachstone" "Simulacrum"
@@ -46,14 +59,14 @@ SetFontSize 40
 SetTextColor 255 141 161 255
 SetBorderColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 2 Pink Square
+MinimapIcon 0 Pink Square
 
 Show
 BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
 SetFontSize 36
 SetTextColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 2 Pink Square
+MinimapIcon 1 Pink Square
 
 Show
 BaseType "Tablet"
@@ -61,6 +74,13 @@ SetFontSize 32
 SetTextColor 255 141 161 255
 PlayEffect Pink
 MinimapIcon 2 Pink Square
+
+Show
+Class "Relic"
+SetFontSize 32
+SetTextColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 1 Pink Square
 
 # //////////////////
 # Leagues
@@ -195,6 +215,18 @@ BaseType "Scroll of Wisdom" "Transmutation Shard" "Regal Shard"
 SetFontSize 10
 
 # //////////////////
+# Jewels
+# //////////////////
+
+Show
+Class "Jewel"
+SetFontSize 38
+SetTextColor 0 255 0 255
+SetBorderColor 0 255 0 255
+PlayEffect Green
+MinimapIcon 2 Green Hexagon
+
+# //////////////////
 # Waystones
 # //////////////////
 
@@ -217,7 +249,7 @@ MinimapIcon 2 Yellow Square
 Hide
 BaseType "Waystone"
 WaystoneTier < 14
-SetFontSize 22
+SetFontSize 12
 SetBorderColor 234 145 69 255
 
 # //////////////////
@@ -238,6 +270,7 @@ MinimapIcon 0 Red Star
 Hide
 BaseType "Gem"
 ItemLevel < 20
+SetFontSize 12
 
 # //////////////////
 # Runes and cores
@@ -251,12 +284,26 @@ SetFontSize 30
 Hide
 Class "Socketable"
 BaseType "Rune"
-SetFontSize 22
+SetFontSize 12
 
 Show
 Class "Socketable"
 BaseType "Soul Core"
 SetFontSize 32
+
+# //////////////////
+# Flask
+# //////////////////
+
+Show
+Class "Flask"
+Quality > 15
+SetFontSize 30
+
+Hide
+Class "Flask"
+Rarity < Unique
+SetFontSize 28
 
 # //////////////////
 # Gold
