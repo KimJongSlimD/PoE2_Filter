@@ -1,35 +1,6 @@
 # Base font size = 34, cap = 45
 
 # //////////////////
-# Only show pure ES, Evasion or ES Evasion hybrid
-# //////////////////
-
-Hide
-Rarity < Unique
-BaseArmour > 0
-BaseEvasion = 0
-BaseEnergyShield = 0
-SetFontSize 30
-
-Hide
-Rarity < Unique
-BaseArmour > 0
-BaseEvasion = 0
-BaseEnergyShield > 0
-SetFontSize 30
-
-Hide
-Rarity < Unique
-BaseArmour > 0
-BaseEvasion > 0
-BaseEnergyShield = 0
-SetFontSize 30
-
-Hide
-BaseType "Advanced"
-SetFontSize 30
-
-# //////////////////
 # Normal bases to sell/craft/chance, in order
 # //////////////////
 
@@ -392,6 +363,36 @@ SetFontSize 20
 Hide
 BaseType "Gold"
 SetFontSize 12
+
+# //////////////////
+# Only show pure ES, Evasion or ES Evasion hybrid
+# //////////////////
+
+Hide
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion = 0
+BaseEnergyShield = 0
+SetFontSize 30
+
+Hide
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion = 0
+BaseEnergyShield > 0
+SetFontSize 30
+
+Hide
+Rarity < Unique
+BaseArmour > 0
+BaseEvasion > 0
+BaseEnergyShield = 0
+SetFontSize 30
+
+Hide
+BaseType "Advanced"
+SetFontSize 30
+
 
 # //////////////////
 # Hides all magic and rares armors, weapons and trinkets, minus rare trinkets, bows, xbows, quarterstaves and quivers
