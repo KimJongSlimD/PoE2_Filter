@@ -29,10 +29,85 @@ PlayAlertSound 5 120
 MinimapIcon 0 Purple Triangle
 
 # //////////////////
+# Tablets, realmgate, citadel, trial
+# //////////////////
+
+Show
+Class "Pinnacle Keys"
+SetFontSize 42
+SetTextColor 255 141 161 255
+SetBorderColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 2 Pink Square
+
+Show
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Breachstone" "Simulacrum"
+SetFontSize 40
+SetTextColor 255 141 161 255
+SetBorderColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 2 Pink Square
+
+Show
+BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
+SetFontSize 36
+SetTextColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 2 Pink Square
+
+Show
+BaseType "Tablet"
+SetFontSize 32
+SetTextColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 2 Pink Square
+
+# //////////////////
 # Leagues
 # //////////////////
 
+Show
+Class "Currency"
+BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Isolation"
+SetFontSize 40
+SetTextColor 0 144 158 255
+PlayEffect Cyan
+MinimapIcon 1 Cyan Circle
 
+Show
+BaseType "Logbook"
+SetFontSize 42
+SetTextColor 0 144 158 255
+PlayEffect Cyan
+MinimapIcon 1 Cyan Circle
+
+Show
+Class "Currency"
+BaseType "Distilled" "Splinter" "Omen"
+SetTextColor 0 144 158 255
+PlayEffect Cyan
+MinimapIcon 2 Cyan Circle
+
+Show
+Class "Currency"
+BaseType "Neural Catalyst" "Adaptive Catalyst" "Artifact" "Exotic Coinage" "Essence"
+SetFontSize 30
+SetTextColor 0 144 158 255
+PlayEffect Cyan
+MinimapIcon 2 Cyan Circle
+
+Show
+Class "Currency"
+BaseType "Catalyst"
+StackSize = 10
+SetTextColor 0 144 158 255
+
+Hide
+Class "Currency"
+BaseType "Catalyst"
+StackSize < 10
+SetFontSize 22
+SetTextColor 0 144 158 255
 
 # //////////////////
 # Mirror and perfect tier, purple on white
@@ -118,6 +193,70 @@ Hide
 Class "Currency"
 BaseType "Scroll of Wisdom" "Transmutation Shard" "Regal Shard"
 SetFontSize 10
+
+# //////////////////
+# Waystones
+# //////////////////
+
+Show
+BaseType "Waystone"
+WaystoneTier > 14
+SetFontSize 38
+SetBorderColor 234 145 69 255
+PlayEffect Yellow
+MinimapIcon 1 Yellow Square
+
+Show
+BaseType "Waystone"
+WaystoneTier = 14
+SetFontSize 32
+SetBorderColor 234 145 69 255
+PlayEffect Yellow
+MinimapIcon 2 Yellow Square
+
+Hide
+BaseType "Waystone"
+WaystoneTier < 14
+SetFontSize 22
+SetBorderColor 234 145 69 255
+
+# //////////////////
+# Gems
+# //////////////////
+
+Show
+BaseType "Gem"
+ItemLevel = 20
+SetFontSize 42
+SetTextColor 220 20 60 255
+SetBackgroundColor 250 250 250 175
+SetBorderColor 220 20 60 255
+PlayEffect Red
+PlayAlertSound 4 120
+MinimapIcon 0 Red Star
+
+Hide
+BaseType "Gem"
+ItemLevel < 20
+
+# //////////////////
+# Runes and cores
+# //////////////////
+
+Show
+Class "Socketable"
+BaseType "Iron Rune"
+SetFontSize 30
+
+Hide
+Class "Socketable"
+BaseType "Rune"
+SetFontSize 22
+
+Show
+Class "Socketable"
+BaseType "Soul Core"
+SetFontSize 32
 
 # //////////////////
 # Gold
