@@ -370,24 +370,27 @@ SetFontSize 12
 
 Hide
 Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour > 0
 BaseEvasion = 0
 BaseEnergyShield = 0
-SetFontSize 30
+SetFontSize 20
 
 Hide
 Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour > 0
 BaseEvasion = 0
 BaseEnergyShield > 0
-SetFontSize 30
+SetFontSize 20
 
 Hide
 Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour > 0
 BaseEvasion > 0
 BaseEnergyShield = 0
-SetFontSize 30
+SetFontSize 20
 
 Hide
 BaseType "Advanced"
