@@ -1,4 +1,5 @@
-# PoE2_Filter
+# Filters and sounds go in the same folder
+
 Credits when applicable:
 
 https://github.com/PoEDave/FubgunFilters/tree/main
