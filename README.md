@@ -1,6 +1,7 @@
 # PoE2_Filter
 Credits when applicable:
 https://github.com/PoEDave/FubgunFilters/tree/main
+https://www.filterblade.xyz/?game=Poe2
 
 ## **Regex cheat sheet for mapping and tablets:**
 
