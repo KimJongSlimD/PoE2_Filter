@@ -420,6 +420,10 @@ SetFontSize 12
 # Hides all magic and rares armors, weapons and trinkets, minus rare trinkets, bows, xbows, quarterstaves and quivers
 # //////////////////
 
+Show
+Rarity = Rare
+Class "Quarterstaff"
+
 Hide
 Rarity = Rare
 Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet"
