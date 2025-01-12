@@ -87,6 +87,7 @@ SetFontSize 38
 SetTextColor 255 141 161 255
 SetBorderColor 255 141 161 255
 PlayEffect Pink
+PlayAlertSound 2 120
 MinimapIcon 0 Pink Square
 
 Show
