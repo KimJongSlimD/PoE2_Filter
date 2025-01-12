@@ -1,4 +1,4 @@
-# Filters and sounds go in the same folder
+# FILTERS AND SOUND FILES GO IN THE SAME FOLDER
 
 Credits when applicable:
 
