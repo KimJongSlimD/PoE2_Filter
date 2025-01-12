@@ -316,6 +316,11 @@ PlayEffect Red
 PlayAlertSound 16 120
 MinimapIcon 0 Red Star
 
+Show
+BaseType "Spirit Gem"
+ItemLevel = 19
+MinimapIcon 2 White Star
+
 Hide
 BaseType "Gem"
 ItemLevel < 20
