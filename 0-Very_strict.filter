@@ -322,6 +322,7 @@ MinimapIcon 0 Red Star
 Show
 BaseType "Spirit Gem"
 ItemLevel = 19
+SetFontSize 36
 MinimapIcon 2 White Star
 
 Hide
