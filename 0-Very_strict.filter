@@ -69,8 +69,17 @@ CustomAlertSound "Sound_3.mp3" 300
 MinimapIcon 0 Purple Triangle
 
 # //////////////////
-# Tablets, realmgate, citadel, trial, relics
+# High-end league
 # //////////////////
+
+Show
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Breachstone" "Logbook"
+SetFontSize 42
+SetTextColor 255 141 161 255
+SetBorderColor 255 141 161 255
+PlayEffect Pink
+PlayAlertSound 10 200
+MinimapIcon 0 Pink Square
 
 Show
 Class "Pinnacle Keys"
@@ -78,72 +87,57 @@ SetFontSize 42
 SetTextColor 255 141 161 255
 SetBorderColor 255 141 161 255
 PlayEffect Pink
-PlayAlertSound 13 200
+PlayAlertSound 11 200
 MinimapIcon 0 Pink Square
 
 Show
-BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Breachstone" "Simulacrum"
+Class "Currency"
+BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Isolation"
 SetFontSize 38
-SetTextColor 255 141 161 255
-SetBorderColor 255 141 161 255
-PlayEffect Pink
-PlayAlertSound 2 200
-MinimapIcon 0 Pink Square
+SetTextColor 0 144 158 255
+PlayEffect Cyan
+PlayAlertSound 10 200
+MinimapIcon 1 Pink Circle
 
 Show
 BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
 SetFontSize 36
 SetTextColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 1 Pink Square
-
-Show
-BaseType "Tablet"
-SetFontSize 32
-SetTextColor 255 141 161 255
-PlayEffect Pink
+PlayAlertSound 13 200
 MinimapIcon 2 Pink Square
 
 Show
 Class "Relic"
-SetFontSize 32
 SetTextColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 1 Pink Square
+MinimapIcon 2 Pink Square
+
 
 # //////////////////
-# Leagues
+# Lower-end league
 # //////////////////
 
 Show
 Class "Currency"
-BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Isolation"
-SetFontSize 40
+BaseType "Simulacrum Splinter"
+SetFontSize 38
 SetTextColor 0 144 158 255
 PlayEffect Cyan
-PlayAlertSound 11 200
+PlayAlertSound 2 200
 MinimapIcon 1 Cyan Circle
 
 Show
-BaseType "Logbook"
-SetFontSize 42
-SetTextColor 0 144 158 255
-SetBorderColor 0 144 158 255
-PlayEffect Cyan
-PlayAlertSound 10 200
-MinimapIcon 0 Cyan Circle
-
-Show
 Class "Currency"
-BaseType "Distilled" "Splinter" "Omen"
+BaseType "Breach Splinter"
+SetFontSize 35
 SetTextColor 0 144 158 255
 PlayEffect Cyan
 MinimapIcon 2 Cyan Circle
 
 Show
 Class "Currency"
-BaseType "Neural Catalyst" "Adaptive Catalyst" "Artifact" "Exotic Coinage" "Essence"
-SetFontSize 30
+BaseType "Distilled" "Neural Catalyst" "Adaptive Catalyst" "Artifact" "Exotic Coinage" "Essence"
 SetTextColor 0 144 158 255
 PlayEffect Cyan
 MinimapIcon 2 Cyan Circle
@@ -160,6 +154,13 @@ BaseType "Catalyst"
 StackSize < 10
 SetFontSize 22
 SetTextColor 0 144 158 255
+
+Show
+BaseType "Precursor Tablet"
+SetFontSize 32
+SetTextColor 255 141 161 255
+PlayEffect Pink
+MinimapIcon 2 Pink Square
 
 # //////////////////
 # Mirror and perfect tier, purple on white
