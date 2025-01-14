@@ -1,23 +1,30 @@
 # Base font size = 34, cap = 45
 
 # //////////////////
-# Normal bases to sell/craft/chance, in order
+# Normal bases to sell/craft
 # //////////////////
 
 Show
-BaseType "Siphoning Wand" "Attuned Wand"
+BaseType "Siphoning Wand" "Attuned Wand" "Chiming Staff" "Voltaic Staff"
 ItemLevel > 80
 SetFontSize 36
+SetBorderColor 166 162 160 255
 
 Show
-BaseType "Expert Dualstring"
+BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow" "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff" "Expert Cultist Greathammer" "Expert Dualstring"
 ItemLevel > 81
 SetFontSize 36
+SetBorderColor 166 162 160 255
+
+# //////////////////
+# Normal bases to sell/chance
+# //////////////////
 
 Show
 Rarity Normal
 BaseType "Stellar Amulet" "Sapphire Ring"
 SetFontSize 36
+SetBorderColor 255 223 0 255
 
 # //////////////////
 # Breach rings
@@ -30,15 +37,6 @@ SetBackgroundColor 0 77 81 255
 SetBorderColor 0 77 81 255
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
-
-# //////////////////
-# Rare rings and amulets
-# //////////////////
-
-Show
-Class "Ring" "Amulet"
-Rarity Rare
-SetFontSize 36
 
 # //////////////////
 # Uniques to vaal
@@ -350,20 +348,6 @@ BaseType "Soul Core"
 SetFontSize 32
 
 # //////////////////
-# Flask
-# //////////////////
-
-Show
-Class "Flask"
-Quality > 14
-SetFontSize 30
-
-Hide
-Class "Flask"
-Rarity < Unique
-SetFontSize 20
-
-# //////////////////b
 # Gold
 # //////////////////
 
@@ -377,61 +361,142 @@ BaseType "Gold"
 SetFontSize 12
 
 # //////////////////
-# Only show pure ES, Evasion or ES Evasion hybrid
-# //////////////////
-
-Hide
-Rarity < Unique
-Class "Helmet" "Body Armour" "Gloves" "Boots"
-BaseArmour > 0
-BaseEvasion = 0
-BaseEnergyShield = 0
-SetFontSize 20
-
-Hide
-Rarity < Unique
-Class "Helmet" "Body Armour" "Gloves" "Boots"
-BaseArmour > 0
-BaseEvasion = 0
-BaseEnergyShield > 0
-SetFontSize 20
-
-Hide
-Rarity < Unique
-Class "Helmet" "Body Armour" "Gloves" "Boots"
-BaseArmour > 0
-BaseEvasion > 0
-BaseEnergyShield = 0
-SetFontSize 20
-
-Hide
-BaseType "Advanced"
-SetFontSize 20
-
-# //////////////////
-# Hidden quivers
-# //////////////////
-
-Hide
-Rarity < Unique
-Class "Quiver"
-BaseType "Blunt" "Toxic" "Serrated"
-SetFontSize 12
-
-# //////////////////
-# 00: Hides all magic and rares armors, weapons and trinkets, minus rare trinkets, bows, xbows, quarterstaves and quivers
+# Flask
 # //////////////////
 
 Show
-Rarity = Rare
+Class "Flask"
+Quality > 14
+SetFontSize 30
+
+Hide
+Class "Flask"
+Rarity < Unique
+SetFontSize 18
+
+# //////////////////
+# Shown trinkets
+# //////////////////
+
+Show
+Rarity Rare Magic
+Class "Amulet"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
+Class "Ring"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
+Class "Belt"
+BaseType "Golden Obi" "Plate Belt" "Heavy Belt" "Utility Belt"
+SetFontSize 32
+
+# //////////////////
+# Only show pure ES, Evasion or ES Evasion hybrid; hide advanced
+# //////////////////
+
+Hide
+BaseType "Advanced"
+SetFontSize 18
+
+Show
+Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion > 0
+BaseEnergyShield = 0
+SetFontSize 32
+
+Show
+Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion = 0
+BaseEnergyShield > 0
+SetFontSize 32
+
+Show
+Rarity < Unique
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion > 0
+BaseEnergyShield > 0
+SetFontSize 32
+
+# //////////////////
+# Shown off hands
+# //////////////////
+
+Show
+Rarity < Unique
+Class "Quiver"
+BaseType "Primed Quiver" "Penetrating Quiver" "Visceral Quiver"
+SetFontSize 32
+
+Show
+Rarity < Unique
+Class "Shield"
+BaseType "Expert Stone Tower Shield"
+SetFontSize 32
+
+Show
+Rarity < Unique
+Class "Focus"
+BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus"
+SetFontSize 32
+
+# //////////////////
+# Shown two handed weapons
+# //////////////////
+
+Show
+Rarity Rare Magic
+Class "Bow"
+BaseType "Expert Dualstring Bow"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
+Class "Staff"
+BaseType "Chiming Staff" "Voltaic Staff"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
+Class "Two Hand Mace"
+BaseType "Expert Cultist Greathammer"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
 Class "Quarterstaff"
+BaseType "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff"
+SetFontSize 32
+
+Show
+Rarity Rare Magic
+Class "Crossbow"
+BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow"
+SetFontSize 32
+
+# //////////////////
+# Shown one handed weapons
+# //////////////////
+
+Show
+Rarity Rare Magic
+Class "Wand"
+BaseType "Attuned Wand" "Siphoning Wand"
+SetFontSize 32
+
+# //////////////////
+# 00: Hides all magic and rares armors, weapons and trinkets
+# //////////////////
 
 Hide
-Rarity = Rare
-Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus"
-SetFontSize 20
-
-Hide
-Rarity < Rare
+Rarity < Unique
 Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
 SetFontSize 18
