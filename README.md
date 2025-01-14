@@ -1,11 +1,6 @@
 # FILTERS AND SOUND FILES GO IN THE SAME FOLDER
 
-
-Credits when applicable:
-
-https://github.com/PoEDave/FubgunFilters/tree/main
-
-https://www.filterblade.xyz/?game=Poe2
+Showcase (updated as of 1.02): https://www.youtube.com/watch?v=GvGRN3Y-tgk
 
 ## **Regex cheat sheet for mapping and tablets:**
 
@@ -36,3 +31,12 @@ Breach: Anti-freeze charm
 Kalguuran : Anti-freeze charm
 
 Ritual : Purple = Move, Red = Stand still
+
+
+
+
+Credits when applicable:
+
+https://github.com/PoEDave/FubgunFilters/tree/main
+
+https://www.filterblade.xyz/?game=Poe2
