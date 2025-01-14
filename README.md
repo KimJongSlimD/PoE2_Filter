@@ -33,5 +33,7 @@ https://www.filterblade.xyz/?game=Poe2
 ## Uber
 
 Breach: Anti-freeze charm
+
 Kalguuran : Anti-freeze charm
+
 Ritual : Purple = Move, Red = Stand still
