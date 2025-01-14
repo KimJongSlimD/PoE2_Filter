@@ -437,19 +437,19 @@ SetFontSize 32
 # //////////////////
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Quiver"
 BaseType "Primed Quiver" "Penetrating Quiver" "Visceral Quiver"
 SetFontSize 32
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Shield"
 BaseType "Expert Stone Tower Shield"
 SetFontSize 32
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Focus"
 BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus"
 SetFontSize 32
@@ -459,31 +459,31 @@ SetFontSize 32
 # //////////////////
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Bow"
 BaseType "Expert Dualstring Bow"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Staff"
 BaseType "Chiming Staff" "Voltaic Staff"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Two Hand Mace"
 BaseType "Expert Cultist Greathammer"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Quarterstaff"
 BaseType "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Crossbow"
 BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow"
 SetFontSize 32
@@ -493,7 +493,7 @@ SetFontSize 32
 # //////////////////
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Wand"
 BaseType "Attuned Wand" "Siphoning Wand"
 SetFontSize 32
