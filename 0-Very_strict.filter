@@ -263,7 +263,7 @@ Class "Jewel"
 SetFontSize 42
 SetBorderColor 0 255 0 255
 PlayEffect Green
-MinimapIcon 2 Green Hexagon
+MinimapIcon 1 Green Hexagon
 
 Show
 Class "Jewel"
@@ -409,6 +409,12 @@ Rarity Rare
 Class "Belt"
 BaseType "Golden Obi" "Plate Belt" "Heavy Belt" "Utility Belt"
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Belt"
+BaseType "Golden Obi" "Plate Belt" "Heavy Belt" "Utility Belt"
+SetFontSize 28
 
 # //////////////////
 # Only show pure ES, Evasion or ES Evasion hybrid; hide advanced
