@@ -387,17 +387,17 @@ SetFontSize 18
 # //////////////////
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Amulet"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Magic Rare
 Class "Ring"
 SetFontSize 32
 
 Show
-Rarity Rare Magic
+Rarity Rare
 Class "Belt"
 BaseType "Golden Obi" "Plate Belt" "Heavy Belt" "Utility Belt"
 SetFontSize 32
@@ -411,7 +411,7 @@ BaseType "Advanced"
 SetFontSize 18
 
 Show
-Rarity Magic Rare
+Rarity Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion > 0
@@ -419,7 +419,7 @@ BaseEnergyShield = 0
 SetFontSize 32
 
 Show
-Rarity Magic Rare
+Rarity Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion = 0
@@ -427,7 +427,7 @@ BaseEnergyShield > 0
 SetFontSize 32
 
 Show
-Rarity Magic Rare
+Rarity Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion > 0
