@@ -1,6 +1,6 @@
 # FILTERS AND SOUND FILES GO IN THE SAME FOLDER
 
-Showcase (updated as of 1.02): https://www.youtube.com/watch?v=GvGRN3Y-tgk
+Showcase (updated as of 1.03): https://www.youtube.com/watch?v=-wi0i6KYpm0
 
 ## **Regex cheat sheet for mapping and tablets:**
 
