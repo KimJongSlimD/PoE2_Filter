@@ -102,9 +102,9 @@ Class "Currency"
 BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Isolation"
 SetFontSize 38
 SetTextColor 0 144 158 255
-PlayEffect Pink
+PlayEffect Cyan
 PlayAlertSound 3 200
-MinimapIcon 1 Pink Circle
+MinimapIcon 1 Cyan Circle
 
 Show
 BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
