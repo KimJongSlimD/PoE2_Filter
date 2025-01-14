@@ -418,6 +418,14 @@ BaseEvasion > 0
 BaseEnergyShield = 0
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion > 0
+BaseEnergyShield = 0
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
@@ -426,6 +434,14 @@ BaseEvasion = 0
 BaseEnergyShield > 0
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion = 0
+BaseEnergyShield > 0
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
@@ -433,6 +449,14 @@ BaseArmour = 0
 BaseEvasion > 0
 BaseEnergyShield > 0
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Helmet" "Body Armour" "Gloves" "Boots"
+BaseArmour = 0
+BaseEvasion > 0
+BaseEnergyShield > 0
+SetFontSize 28
 
 # //////////////////
 # Shown off hands
@@ -444,17 +468,35 @@ Class "Quiver"
 BaseType "Primed Quiver" "Penetrating Quiver" "Visceral Quiver"
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Quiver"
+BaseType "Primed Quiver" "Penetrating Quiver" "Visceral Quiver"
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Shield"
 BaseType "Expert Stone Tower Shield"
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Shield"
+BaseType "Expert Stone Tower Shield"
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Focus"
 BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus"
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Focus"
+BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus"
+SetFontSize 28
 
 # //////////////////
 # Shown two handed weapons
@@ -466,11 +508,23 @@ Class "Bow"
 BaseType "Expert Dualstring Bow"
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Bow"
+BaseType "Expert Dualstring Bow"
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Staff"
 BaseType "Chiming Staff" "Voltaic Staff"
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Staff"
+BaseType "Chiming Staff" "Voltaic Staff"
+SetFontSize 28
 
 Show
 Rarity Rare
@@ -478,17 +532,35 @@ Class "Two Hand Mace"
 BaseType "Expert Cultist Greathammer"
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Two Hand Mace"
+BaseType "Expert Cultist Greathammer"
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Quarterstaff"
 BaseType "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff"
 SetFontSize 32
 
+Hide
+Rarity Magic
+Class "Quarterstaff"
+BaseType "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff"
+SetFontSize 28
+
 Show
 Rarity Rare
 Class "Crossbow"
 BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow"
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Crossbow"
+BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow"
+SetFontSize 28
 
 # //////////////////
 # Shown one handed weapons
@@ -499,6 +571,12 @@ Rarity Rare
 Class "Wand"
 BaseType "Attuned Wand" "Siphoning Wand"
 SetFontSize 32
+
+Hide
+Rarity Magic
+Class "Wand"
+BaseType "Attuned Wand" "Siphoning Wand"
+SetFontSize 28
 
 # //////////////////
 # 00: Hides all magic and rares armors, weapons and trinkets
