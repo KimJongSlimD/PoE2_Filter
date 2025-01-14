@@ -16,6 +16,12 @@ ItemLevel > 81
 SetFontSize 36
 SetBorderColor 166 162 160 255
 
+Show
+BaseType "Flask"
+ItemLevel > 82
+SetFontSize 36
+SetBorderColor 166 162 160 255
+
 # //////////////////
 # Normal bases to sell/chance
 # //////////////////
@@ -292,17 +298,6 @@ BaseType "Djinn Barya" "Ultimatum"
 ItemLevel > 76
 
 # //////////////////
-# Charms
-# //////////////////
-
-Show
-BaseType "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
-SetFontSize 30
-
-Hide
-BaseType "Charm"
-
-# //////////////////
 # Gems
 # //////////////////
 
@@ -361,7 +356,18 @@ BaseType "Gold"
 SetFontSize 12
 
 # //////////////////
-# Flask
+# Charms
+# //////////////////
+
+Show
+BaseType "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
+SetFontSize 32
+
+Hide
+BaseType "Charm"
+
+# //////////////////
+# Showw flasks
 # //////////////////
 
 Show
