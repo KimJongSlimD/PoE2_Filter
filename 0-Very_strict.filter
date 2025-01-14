@@ -600,5 +600,5 @@ SetFontSize 28
 
 Hide
 Rarity < Unique
-Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
+Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Bow" "Staff" "Quarterstaff" "Crossbow" "Trap" "Fishing Rod" "Quiver" "Shield" "Focus" "Gloves" "Boots" "Body" "Helmet" "Amulet" "Ring" "Belt"
 SetFontSize 18
