@@ -6,14 +6,14 @@
 
 Show
 Rarity < Unique
-BaseType "Siphoning Wand" "Attuned Wand" "Chiming Staff" "Voltaic Staff"
+BaseType "Siphoning Wand" "Attuned Wand"
 ItemLevel > 80
 SetFontSize 36
 SetBorderColor 166 162 160 255
 
 Show
 Rarity < Unique
-BaseType "Expert Bombard Crossbow" "Expert Forlorn Crossbow" "Expert Slicing Quarterstaff" "Expert Crescent Quarterstaff" "Expert Cultist Greathammer" "Expert Dualstring"
+BaseType "Expert Dualstring Bow"
 ItemLevel > 81
 SetFontSize 36
 SetBorderColor 166 162 160 255
