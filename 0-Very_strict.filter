@@ -233,7 +233,7 @@ SetBackgroundColor 223 194 146 175
 Show
 Class "Currency"
 BaseType "Regal Orb" "Blacksmith's Whetstone"
-SetFontSize 36
+SetFontSize 34
 
 # //////////////////
 # Hidden currencies
