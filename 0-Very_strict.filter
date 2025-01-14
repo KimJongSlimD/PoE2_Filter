@@ -372,6 +372,7 @@ SetFontSize 12
 # //////////////////
 
 Show
+Rarity Magic
 BaseType "Thawing Charm" "Amethyst Charm" "Golden Charm" "Stone Charm"
 SetFontSize 32
 
