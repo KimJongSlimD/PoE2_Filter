@@ -258,6 +258,14 @@ SetFontSize 10
 # //////////////////
 
 Show
+Rarity Unique
+Class "Jewel"
+SetFontSize 42
+SetBorderColor 0 255 0 255
+PlayEffect Green
+MinimapIcon 2 Green Hexagon
+
+Show
 Class "Jewel"
 SetFontSize 38
 SetTextColor 0 255 0 255
