@@ -428,7 +428,7 @@ Class "Quarterstaff"
 
 Hide
 Rarity = Rare
-Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus" "Gloves"  "Boots" "Body" "Helmet"
+Class "Claw" "Dagger" "Wand" " Sword" " Axe" " Mace" "Sceptre" "Spear" "Flail" "Staff" "Trap" "Fishing Rod" "Shield" "Focus"
 SetFontSize 20
 
 Hide
