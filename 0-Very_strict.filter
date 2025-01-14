@@ -409,7 +409,7 @@ BaseType "Advanced"
 SetFontSize 18
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion > 0
@@ -417,7 +417,7 @@ BaseEnergyShield = 0
 SetFontSize 32
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion = 0
@@ -425,7 +425,7 @@ BaseEnergyShield > 0
 SetFontSize 32
 
 Show
-Rarity < Unique
+Rarity Magic Rare
 Class "Helmet" "Body Armour" "Gloves" "Boots"
 BaseArmour = 0
 BaseEvasion > 0
