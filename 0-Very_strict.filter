@@ -32,7 +32,8 @@ Show
 Rarity Normal
 BaseType "Stellar Amulet" "Sapphire Ring"
 SetFontSize 36
-SetBorderColor 255 223 0 255
+SetBackgroundColor 120 110 7 225
+SetBorderColor 255 255 255 250
 
 # //////////////////
 # Breach rings
@@ -81,27 +82,27 @@ MinimapIcon 0 Purple Triangle
 Show
 BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Breachstone" "Logbook"
 SetFontSize 42
-SetTextColor 255 141 161 255
-SetBorderColor 255 141 161 255
-PlayEffect Pink
+SetBackgroundColor 0 0 118 255
+SetBorderColor 204 204 238 255
+PlayEffect Blue
 PlayAlertSound 10 200
-MinimapIcon 0 Pink Square
+MinimapIcon 0 Blue Square
 
 Show
 Class "Pinnacle Keys"
 SetFontSize 42
-SetTextColor 255 141 161 255
-SetBorderColor 255 141 161 255
-PlayEffect Pink
+SetBackgroundColor 0 0 118 255
+SetBorderColor 204 204 238 255
+PlayEffect Blue
 PlayAlertSound 10 200
-MinimapIcon 0 Pink Square
+MinimapIcon 0 Blue Square
 
 Show
 Class "Currency"
 BaseType "Greater Essence" "Distilled Fear" "Distilled Suffering" "Distilled Isolation"
 SetFontSize 38
 SetTextColor 0 144 158 255
-PlayEffect Cyan
+PlayEffect Pink
 PlayAlertSound 3 200
 MinimapIcon 1 Pink Circle
 
@@ -111,13 +112,13 @@ SetFontSize 36
 SetTextColor 255 141 161 255
 PlayEffect Pink
 PlayAlertSound 2 200
-MinimapIcon 2 Pink Square
+MinimapIcon 1 Pink Square
 
 Show
 Class "Relic"
 SetTextColor 255 141 161 255
 PlayEffect Pink
-MinimapIcon 2 Pink Square
+MinimapIcon 2 Pink Kite
 
 
 # //////////////////
@@ -263,6 +264,7 @@ Class "Jewel"
 SetFontSize 42
 SetBorderColor 0 255 0 255
 PlayEffect Green
+PlayAlertSound 5 200
 MinimapIcon 1 Green Hexagon
 
 Show
