@@ -195,6 +195,15 @@ MinimapIcon 1 Orange Triangle
 
 Show
 Rarity Unique
+Class "Sceptre"
+BaseType "Shrine Sceptre"
+SetFontSize 36
+SetBorderColor 200 200 200 255
+PlayEffect Orange
+MinimapIcon 2 Orange Triangle
+
+Show
+Rarity Unique
 Class "Shield"
 BaseType "Omen Crest Shield"
 SetFontSize 36
@@ -219,14 +228,6 @@ Show
 Rarity Unique
 Class "One Hand Mace"
 BaseType "Torment Club"
-SetFontSize 36
-PlayEffect Orange
-MinimapIcon 2 Orange Triangle
-
-Show
-Rarity Unique
-Class "Sceptre"
-BaseType "Shrine Sceptre"
 SetFontSize 36
 PlayEffect Orange
 MinimapIcon 2 Orange Triangle
