@@ -32,11 +32,3 @@ Kalguuran : Anti-freeze charm
 
 Ritual : Purple = Move, Red = Stand still
 
-
-
-
-Credits when applicable:
-
-https://github.com/PoEDave/FubgunFilters/tree/main
-
-https://www.filterblade.xyz/?game=Poe2
