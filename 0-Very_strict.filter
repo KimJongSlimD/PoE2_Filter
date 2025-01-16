@@ -545,7 +545,7 @@ SetBorderColor 234 145 69 255
 PlayEffect Yellow
 MinimapIcon 1 Yellow Square
 
-Show
+Hide
 BaseType "Waystone"
 WaystoneTier = 14
 SetFontSize 32
