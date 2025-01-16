@@ -159,17 +159,6 @@ MinimapIcon 1 Orange Triangle
 
 Show
 Rarity Unique
-Class "Body Armour"
-BaseType "Garment"
-SetFontSize 42
-SetBackgroundColor 110 10 30 255
-SetBorderColor 237 99 27 255
-PlayEffect Orange
-PlayAlertSound 5 200
-MinimapIcon 1 Orange Triangle
-
-Show
-Rarity Unique
 Class "Helmet"
 BaseType "Armoured Cap"
 SetFontSize 42
@@ -216,6 +205,15 @@ Show
 Rarity Unique
 Class "Glove"
 BaseType "Linen Wraps"
+SetFontSize 36
+SetBorderColor 200 200 200 255
+PlayEffect Orange
+MinimapIcon 2 Orange Triangle
+
+Show
+Rarity Unique
+Class "Body Armour"
+BaseType "Garment"
 SetFontSize 36
 SetBorderColor 200 200 200 255
 PlayEffect Orange
