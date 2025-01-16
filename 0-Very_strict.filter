@@ -341,7 +341,7 @@ PlayAlertSound 3 200
 MinimapIcon 1 Cyan Circle
 
 Show
-BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
+BaseType "Breach Precursor Tablet" "Delirium Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet" "Overseer Precursor Tablet"
 SetFontSize 36
 SetTextColor 255 141 161 255
 PlayEffect Pink
