@@ -19,6 +19,7 @@ SetFontSize 36
 SetBorderColor 166 162 160 255
 
 Show
+Rarity < Unique
 BaseType "Flask"
 ItemLevel > 82
 SetFontSize 36
