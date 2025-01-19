@@ -66,7 +66,7 @@ MinimapIcon 0 Purple Triangle
 Show
 Rarity Unique
 Class "Body Armour"
-BaseType "Smuggler Coat" "Grand Regalia" "Silk Robe"
+BaseType "Smuggler Coat" "Grand Regalia"
 SetFontSize 45
 SetBackgroundColor 76 25 102 250
 SetBorderColor 237 99 27 255
@@ -213,7 +213,7 @@ MinimapIcon 2 Orange Triangle
 Show
 Rarity Unique
 Class "Body Armour"
-BaseType "Garment"
+BaseType "Garment" "Silk Robe"
 SetFontSize 36
 SetBorderColor 200 200 200 255
 PlayEffect Orange
